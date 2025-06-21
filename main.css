@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    font-size: 30px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%; /* Nếu muốn ảnh tròn như avatar */
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* Khoảng cách giữa 2 cột */
+}
+
+.column {
+  flex: 1; /* Mỗi cột chiếm 50% chiều rộng */
+  padding: 10px;
+  box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước */
+}
+
+.dash {
+  width: 100%; /* Chiều dài */
+  height: 1px; /* Độ dày */
+  background-color: black; /* Màu */
+  margin: 10px 0;
+}
+
+.objective {
+    padding-top: 20px;
+}
+
+.project {
+    padding-top: 20px;
+}
+
+/*Có thể làm vầy*/
+.objective, .contact, .education, .skills, .language {
+  margin-bottom: 15px;
+}
